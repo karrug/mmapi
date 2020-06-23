@@ -71,12 +71,14 @@ TEMPLATES = [
 WSGI_APPLICATION = 'mmapi.wsgi.application'
 
 
+db_password = os.environ['DB_PASSWORD']
+
 DATABASES = { 
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "mmapi",
         "USER": "admin",
-        "PASSWORD": "f@eU#SzW%dF_m7fPxbQw",
+        "PASSWORD": db_password,
         "HOST": "localhost",
         "PORT": "5432",
     }
