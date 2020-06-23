@@ -74,8 +74,8 @@ WSGI_APPLICATION = 'mmapi.wsgi.application'
 DATABASES = { 
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "admin",
-        "USER": "postgres",
+        "NAME": "mmapi",
+        "USER": "admin",
         "PASSWORD": "f@eU#SzW%dF_m7fPxbQw",
         "HOST": "localhost",
         "PORT": "5432",
